@@ -157,7 +157,6 @@ public class Model {
 			bfv.next() ; // non mi serve il valore
 		
 		List<Fermata> result = new LinkedList<>() ;
-		result.add(arrivo);
 		Fermata f = arrivo ;
 		while(f!=null) {
 			result.add(f) ;
